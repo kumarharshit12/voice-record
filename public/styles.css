@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5cece;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+
+  .container {
+    width: 300px; /* Adjust the width as needed */
+    margin: 100px auto; /* Center the container */
+    border: 2px solid #000; /* Add a 2px solid black border */
+    padding: 20px; /* Add some padding inside the container */
+    border-radius: 10px;
+}
+  
+  .App {
+    text-align: center;
+  
+  }
+  
+  .voice-button {
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgb(59, 236, 59);
+  }
+  
+  .voice-button.active {
+    background-color: #ff0000; /* Change color when active */
+  }
+  
+  /* ChatBox.css */
+  .chat-box {
+    width: 300px;
+    margin: auto;
+  }
+  
+  .messages {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .message {
+    margin-bottom: 8px;
+    padding: 5px;
+  }
+  
+  .message.sent {
+    background-color: #e6f7ff;
+  }
+  
+  .message.received {
+    background-color: #f0f0f0;
+  }
+  
+  .input-box {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  input {
+    flex-grow: 1;
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  button {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(104, 104, 223);
+  }
